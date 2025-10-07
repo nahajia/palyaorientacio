@@ -100,18 +100,18 @@ function App() {
     }, [szamlalo,mindenKitoltve,valasztasok]);
 
   const handleClick = () => {
-    /*
+   
     if (valasztasok.length!==30){
         setMessage("Minden mezőt ki kell tölteni!");
         return;
     }
-    */
-   
+    
+   /*
     if (valasztasok.length===0){
         setMessage("Legalább egy mezőt ki kell tölteni!");
         return;
     }
-   
+   */
     setErtek1(0);
     setErtek2(0);
     setErtek3(0);
